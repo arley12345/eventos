@@ -1,0 +1,102 @@
+#button {
+ padding: auto;
+margin-left: 15%;
+
+
+ }
+
+#button li {
+ display: block;
+ }
+ 
+ .container table{
+     display: block;
+     margin-top: 80px;
+     
+ }
+ .container1 table{
+     margin-top: -200px;
+     margin-left: 300px;
+ }
+ 
+ .container input{
+     margin-top: 20px;
+ }
+ 
+ .container1 input{
+     margin-top: 20px;
+ }
+ 
+ #reserva{
+     padding: 10px;
+ }
+ 
+imagen:hover {filter: opacity(.5);}
+  
+#button li a {
+ font-family: monospace;
+ font-size: 18px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ background-color: write;
+ color: gray ;
+ margin-left: 2%;
+ margin-top:  40px;
+ 
+ }
+#button li a:hover {
+ color: black;
+ margin-top: -2;
+ padding-bottom: 11px;
+ 
+ 
+ }
+ 
+ #encabezdo{
+     padding: 2%;
+ }
+ 
+ a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+	float:none;
+	width:100%;
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+	#columna1, #columna2 {
+		float:left;
+		width:50%;
+	}
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1025px) {
+	#columna1, #columna2, #columna3 {
+	float:left;
+	width:33%;
+}
+}
+
